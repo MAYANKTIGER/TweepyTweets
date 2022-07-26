@@ -1,2 +1,2 @@
 # created by virtualenv automatically
-*
+gunicorn app:app --timeout 10
