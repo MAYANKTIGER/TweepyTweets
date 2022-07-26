@@ -1,1 +1,1 @@
-web: gunicorn app:app --timeout INT
+web: gunicorn app:app --graceful-timeout INT
